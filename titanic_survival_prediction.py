@@ -299,3 +299,21 @@ for case in test_cases:
     print(f"  [{case['label']}]")
     print(f"   Prediction : {result}  |  Survival Probability: {prob*100:.1f}%\n")
 
+
+# ──────────────────────────────────────────────
+# 10. PROJECT SUMMARY
+# ──────────────────────────────────────────────
+print("=" * 60)
+print("  PROJECT SUMMARY")
+print("=" * 60)
+print(f"  Dataset          :  Titanic — 891 passengers")
+print(f"  Algorithm        :  Logistic Regression")
+print(f"  Features Used    :  {len(FEATURES)}  {FEATURES}")
+print(f"  Test Accuracy    :  {accuracy * 100:.2f}%")
+print(f"  Cross-Val Score  :  {cv_scores.mean()*100:.2f}% ± {cv_scores.std()*100:.2f}%")
+print(f"  Plots Saved      :  titanic_eda_dashboard.png")
+print(f"                      titanic_model_evaluation.png")
+print("=" * 60)
+print("  ✅  Project Complete!")
+print("=" * 60)
+
