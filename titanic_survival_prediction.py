@@ -2,7 +2,7 @@
 ╔══════════════════════════════════════════════════════════════╗
 ║         TITANIC SURVIVAL PREDICTION — ML PROJECT            ║
 ║──────────────────────────────────────────────────────────────║
-║  Author     : [Your Full Name]                               ║
+║  Author     : RITUSMITA DUTTA                                 ║
 ║  Department : Electronics & Communication Engineering (ECE-B)║
 ║  Institute  : RCC Institute of Information Technology        ║
 ║  Tools      : Python · Pandas · NumPy · Seaborn · Sklearn   ║
